@@ -8,6 +8,10 @@ This project analyzes a music store’s relational database to uncover actionabl
 - `sql_query_music_store.sql` — Contains all SQL queries used for analysis
 - `ER_diagram.png` — Entity Relationship diagram of the database
 - `Music Store Data Analysis Project.pdf` — Documented insights and business recommendations
+- `Music Store Data Analysis Project.docx` — Source document for insights and recommendations
+- `Music Store Data Analysis Questions.docx` — List of business questions addressed
+- `Music Store Dashboard.xlsx` — Interactive Excel dashboard with visual analysis
+- `music store dashboard.pdf` — PDF export of the Excel dashboard
 
 ---
 
