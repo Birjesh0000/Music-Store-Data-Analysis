@@ -161,8 +161,9 @@ on t.genre_id=g.genre_id
 group by genre_name;
 
 -- 3.List tracks that have never been sold.
-select track_id,name from track 
-where track_id not in (select track_id from invoice_line); 
+select t.track_id, t.name from track as t
+left join invoice_line as inv on t.track_id = inv.track_id
+where inv.track_id is null;
 
 -- 4. Which is the most popular genre?
 select g.name as genre_name  ,sum(inv.quantity) as quantity from invoice_line as inv
