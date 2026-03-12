@@ -94,7 +94,7 @@ group by country
 order by revenue desc
 limit 5;
 
--- 11.Which five countries generate the lowest revenue?
+-- 12.Which five countries generate the lowest revenue?
 select c.country,round(sum(i.total),2) as revenue from customer as c
 join invoice as i
 on c.customer_id=i.customer_id
