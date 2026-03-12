@@ -58,6 +58,18 @@ The database contains tables related to customers, invoices, artists, tracks, al
 
 ---
 
+## 📊 Excel Dashboard
+
+An interactive Excel dashboard (`Music Store Dashboard.xlsx`) was built to visually present key metrics including:
+- Revenue breakdown by country and city
+- Top artists and genres by sales
+- Monthly and yearly sales trends
+- Customer purchase distribution
+
+A PDF export (`music store dashboard.pdf`) is also included for quick reference.
+
+---
+
 ## 📊 Key Insights & Recommendations
 
 - **Top Artist**: AC/DC generates the highest revenue.
