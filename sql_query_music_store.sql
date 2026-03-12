@@ -51,7 +51,8 @@ order by total_sales desc;
 
 -- 5.what are the sales trend over the years?
 select year(invoice_date) as year ,round(sum(total),2) as total_sales from invoice
-group by year;
+group by year
+order by year;
 
 -- 6.what are monthly sales trend ?
 select monthname(invoice_date) as month ,
