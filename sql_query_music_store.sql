@@ -109,10 +109,10 @@ limit 5;
 
 --  Customer Insights:
 -- 1. Who are the top 5 customers by total purchase amount?
-select c.first_name,c.last_name,round(sum(i.total),2) as purchase_amount from customer as c
+select c.customer_id,c.first_name,c.last_name,round(sum(i.total),2) as purchase_amount from customer as c
 join invoice as i
 on c.customer_id=i.customer_id
-group by c.first_name,c.last_name
+group by c.customer_id,c.first_name,c.last_name
 order by purchase_amount desc
 limit 5;
 
