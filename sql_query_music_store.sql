@@ -57,7 +57,8 @@ order by year;
 -- 6.what are monthly sales trend ?
 select monthname(invoice_date) as month ,
 round(sum(total),2) as total_sales from invoice
-group by month;
+group by month(invoice_date), month
+order by month(invoice_date);
 
 -- 7. what is the total no of quantity sold by music store?
 select sum(quantity) as total_quantity from invoice_line;
