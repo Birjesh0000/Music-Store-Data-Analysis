@@ -86,3 +86,12 @@ A PDF export (`music store dashboard.pdf`) is also included for quick reference.
 
 ---
 
+## 📂 Data Source
+
+This project uses the **Chinook Database**, a sample database representing a digital media store. It includes tables for artists, albums, tracks, customers, invoices, and more.
+
+- **Source**: [Chinook Database on GitHub](https://github.com/lerocha/chinook-database)
+- **Setup**: Import the MySQL version of the Chinook SQL dump into your MySQL server. See the SQL file header for detailed setup instructions.
+
+---
+
