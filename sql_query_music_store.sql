@@ -1,6 +1,22 @@
 create database Music_Store_Data;
 use  Music_Store_Data;
 
+-- ============================================================
+-- DATABASE SCHEMA OVERVIEW
+-- ============================================================
+-- This project uses the Chinook database (a sample music store database).
+-- Tables used: album2, artist, customer, employee, genre, invoice,
+--              invoice_line, media_type, playlist, playlist_track, track
+--
+-- To set up the database:
+-- 1. Download the Chinook MySQL database from:
+--    https://github.com/lerocha/chinook-database
+-- 2. Import the SQL dump using MySQL Workbench or the command line:
+--    mysql -u your_username -p Music_Store_Data < chinook_mysql.sql
+-- 3. Note: The 'album' table may be imported as 'album2' depending on the
+--    dataset version. Rename if needed: ALTER TABLE album RENAME TO album2;
+-- ============================================================
+
 -- Note: The table 'album2' is named as such due to the original dataset import.
 -- It corresponds to the standard 'album' table in the Chinook database schema.
 
