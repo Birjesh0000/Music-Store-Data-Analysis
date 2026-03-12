@@ -1,6 +1,9 @@
 create database Music_Store_Data;
 use  Music_Store_Data;
 
+-- Note: The table 'album2' is named as such due to the original dataset import.
+-- It corresponds to the standard 'album' table in the Chinook database schema.
+
 select * from album2 ;
 select * from artist;
 select * from customer;
